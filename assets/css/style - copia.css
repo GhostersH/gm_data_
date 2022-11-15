@@ -1,3 +1,4 @@
+
 /* Finandox Business HTML Template  */
 
 /*** 
@@ -479,7 +480,7 @@ img {
 }
 
 .main-header .auto-container {
-	max-width: 1360px;
+	max-width: 1359px;
 }
 
 .main-header .header-top {
@@ -1625,7 +1626,6 @@ img {
 	-webkit-transition: top 300ms ease;
 	-o-transition: top 300ms ease;
 	transition: top 300ms ease;
-	height: 100px;
 }
 
 .fixed-header .sticky-header {
@@ -1636,12 +1636,11 @@ img {
 
 .fixed-header .sticky-header .logo {
 	padding: 17px 0px;
-	width: 5%;
 }
 
 .sticky-header .main-menu .navigation>li {
 	margin-left: 50px !important;
-	padding: 10 !important;
+	padding: 0 !important;
 	margin-right: 0;
 	background-color: transparent;
 }
@@ -1654,14 +1653,13 @@ img {
 .sticky-header .main-menu .navigation>li>a {
 	padding: 20px 0px !important;
 	line-height: 30px;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 600;
 	color: #25283a;
 	text-transform: capitalize;
 	-webkit-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
-	
 }
 
 .sticky-header .main-menu .navigation>li>ul>li>ul {
@@ -1713,7 +1711,7 @@ img {
 .mobile-menu .nav-logo {
 	position: relative;
 	padding: 30px 25px;
-	text-align: center;
+	text-align: left;
 }
 
 .mobile-menu-visible {
@@ -1936,72 +1934,65 @@ img {
 }
 
 .side-menu .side-menu-resize {
-	position: absolute;
-	right: -40px;
-	top: 50%;
-	height: 40px;
-	width: 40px;
-	color: #fff;
-	background-color: #3e3e3e;
-	display: none;
-	z-index: 9;
-	text-align: center;
-	line-height: 40px;
-	cursor: pointer;
-	margin-top: -20px;
-	transition: .5s ease;
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    background-color: #3e3e3e;
+    display: none;
+    z-index: 9;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    margin-top: -20px;
+    transition: .5s ease;
 }
 
-.side-menu-visible .side-menu .side-menu-resize {
+.side-menu-visible .side-menu  .side-menu-resize {
 	right: 0;
 	background: rgba(255, 255, 255, 0.1);
 }
 
-.side-menu-visible .side-menu .side-menu-resize .fa-angle-right:before {
-	content: "\f104";
+.side-menu-visible .side-menu  .side-menu-resize .fa-angle-right:before {
+    content: "\f104";
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px){
 	.side-menu-visible .side-menu {
 		transform: translateX(0);
 	}
-
 	.side-menu .side-menu-resize {
 		display: block;
 	}
-
 	.side-menu-visible {
 		padding-left: 320px;
 		transition: .5s;
 	}
-
 	.main-header .mobile-menu-two {
 		display: none;
 	}
-
 	.side-menu-overlay {
 		display: none;
 	}
 }
-
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 1399px){
 	.side-menu-visible-s2 .side-menu {
 		transform: translateX(0);
 	}
-
 	.side-menu-overlay {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba(34, 34, 34, 0.45);
-		z-index: 99;
-		cursor: -webkit-zoom-out;
-		opacity: 0;
-		visibility: hidden;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    background: rgba(34, 34, 34, 0.45);
+	    z-index: 99;
+	    cursor: -webkit-zoom-out;
+	    opacity: 0;
+	    visibility: hidden;
 	}
-
 	.side-menu-visible-s2 .side-menu-overlay {
 		opacity: 1;
 		visibility: visible;
@@ -2128,7 +2119,8 @@ img {
 	z-index: 5;
 }
 
-.side-menu .navigation li.dropdown .dropdown-btn.open {}
+.side-menu .navigation li.dropdown .dropdown-btn.open {
+}
 
 .side-menu .navigation li>ul,
 .side-menu .navigation li>ul>li>ul {
@@ -2206,35 +2198,34 @@ img {
 	content: "+";
 	font-weight: 700;
 	font-family: "Roboto", sans-serif;
-	font-size: 18px;
-	transition: .5s;
+	font-size: 18px;transition: .5s;
 }
 
 .side-menu .navigation li.dropdown .dropdown-btn.open span:before {
-	content: "-";
+    content: "-";
 }
 
 .main-header .mobile-menu-two {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background: #282828;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #282828;
 }
 
 .main-header .mobile-menu-two .wrapper-box {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	padding: 21px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 21px 0;
 }
 
 .main-header .mobile-nav-toggler-two {
-	color: #fff;
-	font-size: 26px;
-	cursor: pointer;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
 }
 
 /*** 
@@ -2260,7 +2251,7 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding: 250px 0px 290px;
+	padding: 380px 0px 290px;
 	overflow: hidden;
 }
 
@@ -2346,7 +2337,6 @@ img {
 	margin: 0 auto;
 	padding: 0 0px;
 	z-index: 5;
-	text-align: center;
 }
 
 .banner-carousel .content-box:before {
@@ -2704,7 +2694,7 @@ img {
 }
 
 .banner-section.style-four.sec-padd-s2 .banner-carousel .slide-item {
-	padding: 220px 0px 350px;
+    padding: 220px 0px 350px;
 }
 
 /*** 
@@ -4065,7 +4055,6 @@ img.lazy-image.loaded {
 		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
 		opacity: 1;
 	}
-
 	100% {
 		-webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
 		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
@@ -4079,7 +4068,6 @@ img.lazy-image.loaded {
 		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
 		opacity: 1;
 	}
-
 	100% {
 		-webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
 		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
@@ -4139,7 +4127,6 @@ img.lazy-image.loaded {
 	float: left;
 	margin-right: 20px;
 	margin-top: 6px;
-	width: 45px;
 }
 
 .why-chooseus-section .content-box .text p {
@@ -9331,3 +9318,10 @@ img.lazy-image.loaded {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
+
+
+
+
+
+
