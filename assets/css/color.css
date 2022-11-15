@@ -114,13 +114,13 @@
 .tab-btn-style-one .nav-item .nav-link.active,
 .service-block-one .icon .round-shape:after,
 .sticky-header .main-menu .navigation>li.current-menu-item>a {
-	background-image: -moz-linear-gradient(0deg, rgb(209, 100, 26) 0%, rgb(192, 40, 42) 100%);
-	background-image: -webkit-linear-gradient(0deg, rgb(209, 100, 26) 0%, rgb(192, 40, 42) 100%);
-	background-image: -ms-linear-gradient(0deg, rgb(209, 100, 26) 0%, rgb(192, 40, 42) 100%);
+	background-image: -moz-linear-gradient(0deg, #f77f00 0%, #d62828 100%);
+	background-image: -webkit-linear-gradient(0deg, #f77f00 0%, #d62828 100%);
+	background-image: -ms-linear-gradient(0deg, #f77f00 0%, #d62828 100%);
 }
 
 .btn-style-one .btn-title:before {
-	background-color: #25283a;
+	background-color: #003049;
 }
 
 .default-video-box a:hover,
@@ -150,7 +150,7 @@
 .testimonial-section.style-two .owl-theme .owl-nav .owl-next:hover:before,
 .welcome-block-one:nth-child(1) .inner-box .read-more a:hover,
 .welcome-block-one:nth-child(3) .inner-box .read-more a:hover {
-	color: #d1641a;
+	color: #f77f00;
 }
 
 .welcome-block-one:nth-child(2) .inner-box .read-more a:hover {
