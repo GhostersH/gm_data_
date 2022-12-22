@@ -3619,7 +3619,7 @@ img.lazy-image.loaded {
 	content: '';
 	top: 0;
 	left: 50%;
-	width: 2px;
+	width: 0px;
 	height: 100%;
 	background: url(../images/shape/shape-3.png) center no-repeat;
 }
